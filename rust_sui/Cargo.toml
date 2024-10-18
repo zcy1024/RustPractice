@@ -1,0 +1,10 @@
+[package]
+name = "rust_sui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# https://github.com/MystenLabs/sui/tree/main/crates/sui-sdk
+sui_sdk = { git = "https://github.com/mystenlabs/sui", package = "sui-sdk"}
+tokio = { version = "1.2", features = ["full"] }
+anyhow = "1.0"
