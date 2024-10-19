@@ -6,5 +6,7 @@ edition = "2021"
 [dependencies]
 # https://github.com/MystenLabs/sui/tree/main/crates/sui-sdk
 sui_sdk = { git = "https://github.com/mystenlabs/sui", package = "sui-sdk"}
+sui_config = { git = "https://github.com/mystenlabs/sui", package = "sui-config"}
 tokio = { version = "1.2", features = ["full"] }
 anyhow = "1.0"
+bcs = "0.1.6"
